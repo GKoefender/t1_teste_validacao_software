@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.centrodistribuicao.CentroDistribuicaoTest" time="0.133" tests="14" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Gusta\Documents\Dev\Testes\java\centrodistribuicao\target\test-classes;C:\Users\Gusta\Documents\Dev\Testes\java\centrodistribuicao\target\classes;C:\Users\Gusta\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\Gusta\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Gusta\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Gusta\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\Gusta\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\Gusta\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\Gusta\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\Gusta\.m2\repository\org\mockito\mockito-core\3.5.13\mockito-core-3.5.13.jar;C:\Users\Gusta\.m2\repository\net\bytebuddy\byte-buddy\1.10.15\byte-buddy-1.10.15.jar;C:\Users\Gusta\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.15\byte-buddy-agent-1.10.15.jar;C:\Users\Gusta\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\openjdk-11.0.14.1_1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Gusta\AppData\Local\Temp\surefire11747319798149909164\surefirebooter6238485286286742476.jar C:\Users\Gusta\AppData\Local\Temp\surefire11747319798149909164 2022-05-05T17-46-19_376-jvmRun1 surefire5914304378547623408tmp surefire_05017655231998665628tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Gusta\Documents\Dev\Testes\java\centrodistribuicao\target\test-classes;C:\Users\Gusta\Documents\Dev\Testes\java\centrodistribuicao\target\classes;C:\Users\Gusta\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\Gusta\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Gusta\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Gusta\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\Gusta\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\Gusta\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\Gusta\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\Gusta\.m2\repository\org\mockito\mockito-core\3.5.13\mockito-core-3.5.13.jar;C:\Users\Gusta\.m2\repository\net\bytebuddy\byte-buddy\1.10.15\byte-buddy-1.10.15.jar;C:\Users\Gusta\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.15\byte-buddy-agent-1.10.15.jar;C:\Users\Gusta\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Gusta"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-02-08"/>
+    <property name="java.home" value="C:\Program Files\OpenJDK\openjdk-11.0.14.1_1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Gusta\Documents\Dev\Testes\java\centrodistribuicao"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Gusta\AppData\Local\Temp\surefire11747319798149909164\surefirebooter6238485286286742476.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14.1+1"/>
+    <property name="user.name" value="Gusta"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Gusta\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Gusta\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.14.1"/>
+    <property name="user.dir" value="C:\Users\Gusta\Documents\Dev\Testes\java\centrodistribuicao"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\OpenJDK\openjdk-11.0.14.1_1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Gusta\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Gusta\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Python310\Scripts;C:\Python310;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\Gusta\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Program Files\OpenJDK\openjdk-11.0.14.1_1\bin;C:\Android\Sdk\emulator;C:\Android\Sdk\tools;C:\Android\Sdk\tools\bin;C:\Android\Sdk\platform-tools;C:\Users\Gusta\AppData\Local\Yarn\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet;C:\Users\Gusta\.windows-build-tools\python27;C:\Users\Gusta\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\Gusta\AppData\Roaming\npm\node_modules\node_modules\.bin;C:\Users\Gusta\AppData\Roaming\npm\node_modules\.bin;C:\Users\Gusta\AppData\Roaming\node_modules\.bin;C:\Users\Gusta\AppData\node_modules\.bin;C:\Users\Gusta\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Gusta\AppData\Local\Microsoft\WindowsApps;C:\Users\Gusta\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gusta\AppData\Roaming\npm;C:\dev\apache-maven-3.8.5\bin;C:\dev\flutter\bin;C:\dev\flutter\bin\cache\dart-sdk\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="11.0.14.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testeSituacaoEmergenciaPedidoCombustivelEstrategico" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0.066"/>
+  <testcase name="testeArumentoInvalidoConstrutor" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0">
+    <error type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: A quantidade deve ser maior que zero!
+	at com.centrodistribuicao.CentroDistribuicaoTest.testeArumentoInvalidoConstrutor(CentroDistribuicaoTest.java:241)
+]]></error>
+  </testcase>
+  <testcase name="testeSobravisoParaNormal" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0"/>
+  <testcase name="testeSituacaoSobravisoParaEmergenciaPedidoCombustivelComum" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0"/>
+  <testcase name="testeSituacaoEmergenciaPedidoCombustivelComum" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0"/>
+  <testcase name="testeSituacaoNormalPedidoCombustivelComum" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0"/>
+  <testcase name="testeSituacaoNormalPedidoCombustivelEstrategico" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0"/>
+  <testcase name="testeSituacaoNormal" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0"/>
+  <testcase name="testeSituacaoEmergencia" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0"/>
+  <testcase name="testeSituacaoSobraviso" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0.009"/>
+  <testcase name="testeSituacaoSobravisoPedidoCombustivelEstrategico" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0"/>
+  <testcase name="testeEmergenciaParaSobraviso" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0"/>
+  <testcase name="testeSituacaoSobravisoPedidoCombustivelComum" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0"/>
+  <testcase name="testeSituacaoNormalParaSobravisoPedidoCombustivelComum" classname="com.centrodistribuicao.CentroDistribuicaoTest" time="0"/>
+</testsuite>

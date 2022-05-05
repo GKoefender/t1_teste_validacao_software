@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.centrodistribuicao.CentroDistribuicaoTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.133 s <<< FAILURE! - in com.centrodistribuicao.CentroDistribuicaoTest
+com.centrodistribuicao.CentroDistribuicaoTest.testeArumentoInvalidoConstrutor  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: A quantidade deve ser maior que zero!
+	at com.centrodistribuicao.CentroDistribuicaoTest.testeArumentoInvalidoConstrutor(CentroDistribuicaoTest.java:241)
+
